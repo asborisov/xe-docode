@@ -1,3 +1,4 @@
+// Based on https://shurn.me/blog/2017-01-12/decrypting-json-from-xe-currency
 const ord = (str) => {
     const ch = str.charCodeAt(0);
     return ch > 0xFF ? (ch - 0x350) : ch;
